@@ -5,7 +5,7 @@
     font-size: 45px;               /* Font size */
     color: #25AAE1;                   /* Text color */
     text-align: center;            /* Center-align the text */
-    margin-top: 10%;              /* Top margin */
+    margin-top: 150px;              /* Top margin */
     margin-bottom: 0px;           /* Bottom margin */
     padding: 10px;                 /* Padding around the text */
     border-bottom: 2px solid #25AAE1; /* Bottom border */
@@ -17,7 +17,7 @@
     display: flex;
     margin: -10px;
     background-color: black;
-    height: 400px;
+    height: 600px;
 }
 
 .column {
