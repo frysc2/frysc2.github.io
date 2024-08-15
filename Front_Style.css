@@ -3,19 +3,19 @@
 #TopText {
     font-family: Garamond , serif; /* Font type */
     font-size: 45px;               /* Font size */
-    color: white;                   /* Text color */
+    color: #25AAE1;                   /* Text color */
     text-align: center;            /* Center-align the text */
     margin-top: 10%;              /* Top margin */
     margin-bottom: 0px;           /* Bottom margin */
     padding: 10px;                 /* Padding around the text */
-    border-bottom: 2px solid #ccc; /* Bottom border */
+    border-bottom: 2px solid #25AAE1; /* Bottom border */
     background-color: black;     /* Background color */
     height: 100px;
 }
 
 #TopHeader {
     display: flex;
-    margin: 20px;
+    margin: -10px;
     background-color: black;
     height: 400px;
 }
@@ -35,7 +35,7 @@
 }
 
 .column-right {
-    color: white;
+    color: #25AAE1;
     text-align: center;
     background-color: black;
     font-size: 20px;
