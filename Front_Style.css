@@ -47,7 +47,7 @@ body{
     display: flex;
     margin: -8px;
     background-color: white;
-    height: 350px;
+    height: 360px;
 }
 .About_column {
     flex: 1;
@@ -62,10 +62,15 @@ body{
 }
 
 .About_column-right {
+    display: flex;               /* Enable Flexbox */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically */
+    flex-direction: column;      /* Stack content vertically */
     color: black;
     text-align: center;
     background-color: white;
     font-size: 20px;
+    padding: 20px;
 }
 #face {
     width: 80%;  /* Maintain aspect ratio */
