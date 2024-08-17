@@ -15,7 +15,7 @@
 
 #TopHeader {
     display: flex;
-    margin: -10px;
+    margin: -8px;
     background-color: black;
     height: 600px;
 }
@@ -43,13 +43,12 @@
 
 #AboutMe {
     display: flex;
-    margin: -10px;
-    background-color: red;
+    margin: -8px;
+    background-color: white;
     height: 300px;
 }
 .About_column {
     flex: 1;
-    padding: 20px;
 }
 
 .About_column-left {
@@ -57,7 +56,6 @@
     justify-content: center; /* Horizontally center */
     align-items: center;     /* Vertically center */
     align-items: center;
-    max-width: 100%;
     background-color: white;
 }
 
@@ -68,8 +66,7 @@
     font-size: 20px;
 }
 #face {
-    overflow: hidden;
-    width: 100%;  /* Maintain aspect ratio */
+    width: 80%;  /* Maintain aspect ratio */
     height: auto;
 }
 
