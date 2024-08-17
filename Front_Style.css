@@ -1,5 +1,7 @@
 /* styles.css */
-
+body{
+    font-family: Garamond , serif;
+}
 #TopText {
     font-family: Garamond , serif; /* Font type */
     font-size: 45px;               /* Font size */
@@ -45,7 +47,7 @@
     display: flex;
     margin: -8px;
     background-color: white;
-    height: 300px;
+    height: 350px;
 }
 .About_column {
     flex: 1;
@@ -68,6 +70,17 @@
 #face {
     width: 80%;  /* Maintain aspect ratio */
     height: auto;
+}
+
+#Showcase{
+    background: lightgrey;
+    margin-top: 10px;
+}
+
+#ShowcaseHeader{
+    text-align: center;
+    background: lightgrey;
+    margin: -8px;
 }
 
 
