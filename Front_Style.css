@@ -106,8 +106,13 @@ body{
     flex: 3;
     display: flex;          /* Use Flexbox to center the image */
     justify-content: center; /* Horizontally center */
-    align-items: center;     /* Vertically center */
-
+    align-items: center;     /* Center vertically */
+    flex-direction: column;      /* Stack content vertically */
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
 }
 
 .Showcase-right {
