@@ -90,7 +90,9 @@ body{
 }
 .ShowcaseColumn{
 
-    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+
 }
 
 #ShowcaseHeader{
@@ -142,7 +144,7 @@ body{
         display: none;
     }
     .Top_column-left img{
-        height: 30%;
+
     }
     .Showcase-left{
         display: none;
